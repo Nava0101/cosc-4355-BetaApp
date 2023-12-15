@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A34492662B1A0048003A1BCF /* readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A34492652B1A0048003A1BCF /* readme.rtf */; };
 		A3DC81472AF1FAE500C31BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC81462AF1FAE500C31BA3 /* AppDelegate.swift */; };
 		A3DC81492AF1FAE500C31BA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC81482AF1FAE500C31BA3 /* SceneDelegate.swift */; };
 		A3DC814B2AF1FAE500C31BA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC814A2AF1FAE500C31BA3 /* ViewController.swift */; };
 		A3DC814E2AF1FAE500C31BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DC814C2AF1FAE500C31BA3 /* Main.storyboard */; };
 		A3DC81502AF1FAE700C31BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DC814F2AF1FAE700C31BA3 /* Assets.xcassets */; };
 		A3DC81532AF1FAE700C31BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DC81512AF1FAE700C31BA3 /* LaunchScreen.storyboard */; };
+		A3DC815D2AF3668200C31BA3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC815C2AF3668200C31BA3 /* GameViewController.swift */; };
+		A3DC815F2AF366D300C31BA3 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC815E2AF366D300C31BA3 /* CardViewController.swift */; };
+		A3DC81612AF366F200C31BA3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC81602AF366F200C31BA3 /* SettingsViewController.swift */; };
+		A3DC81652AF3956100C31BA3 /* AddNewSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC81642AF3956100C31BA3 /* AddNewSetViewController.swift */; };
+		A3DC81672AF42A4A00C31BA3 /* DeleteSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC81662AF42A4A00C31BA3 /* DeleteSetViewController.swift */; };
+		A3DC81692AF42A6200C31BA3 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC81682AF42A6200C31BA3 /* AddCardViewController.swift */; };
+		A3DC816B2AF42A8500C31BA3 /* EditNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC816A2AF42A8500C31BA3 /* EditNameViewController.swift */; };
+		A3DC816D2AF42C6A00C31BA3 /* cardSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC816C2AF42C6A00C31BA3 /* cardSettingsViewController.swift */; };
+		A3DC816F2AF42C7B00C31BA3 /* deleteCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC816E2AF42C7B00C31BA3 /* deleteCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A34492652B1A0048003A1BCF /* readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = readme.rtf; sourceTree = "<group>"; };
 		A3DC81432AF1FAE500C31BA3 /* Navarrete_Alexis_BetaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navarrete_Alexis_BetaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DC81462AF1FAE500C31BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3DC81482AF1FAE500C31BA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,15 @@
 		A3DC814F2AF1FAE700C31BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3DC81522AF1FAE700C31BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3DC81542AF1FAE700C31BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3DC815C2AF3668200C31BA3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A3DC815E2AF366D300C31BA3 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		A3DC81602AF366F200C31BA3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A3DC81642AF3956100C31BA3 /* AddNewSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewSetViewController.swift; sourceTree = "<group>"; };
+		A3DC81662AF42A4A00C31BA3 /* DeleteSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteSetViewController.swift; sourceTree = "<group>"; };
+		A3DC81682AF42A6200C31BA3 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		A3DC816A2AF42A8500C31BA3 /* EditNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameViewController.swift; sourceTree = "<group>"; };
+		A3DC816C2AF42C6A00C31BA3 /* cardSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardSettingsViewController.swift; sourceTree = "<group>"; };
+		A3DC816E2AF42C7B00C31BA3 /* deleteCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +60,7 @@
 		A3DC813A2AF1FAE500C31BA3 = {
 			isa = PBXGroup;
 			children = (
+				A34492652B1A0048003A1BCF /* readme.rtf */,
 				A3DC81452AF1FAE500C31BA3 /* Navarrete_Alexis_BetaApp */,
 				A3DC81442AF1FAE500C31BA3 /* Products */,
 			);
@@ -59,10 +80,19 @@
 				A3DC81462AF1FAE500C31BA3 /* AppDelegate.swift */,
 				A3DC81482AF1FAE500C31BA3 /* SceneDelegate.swift */,
 				A3DC814A2AF1FAE500C31BA3 /* ViewController.swift */,
+				A3DC815C2AF3668200C31BA3 /* GameViewController.swift */,
+				A3DC815E2AF366D300C31BA3 /* CardViewController.swift */,
+				A3DC81602AF366F200C31BA3 /* SettingsViewController.swift */,
 				A3DC814C2AF1FAE500C31BA3 /* Main.storyboard */,
+				A3DC81642AF3956100C31BA3 /* AddNewSetViewController.swift */,
 				A3DC814F2AF1FAE700C31BA3 /* Assets.xcassets */,
 				A3DC81512AF1FAE700C31BA3 /* LaunchScreen.storyboard */,
+				A3DC816C2AF42C6A00C31BA3 /* cardSettingsViewController.swift */,
+				A3DC816E2AF42C7B00C31BA3 /* deleteCardViewController.swift */,
 				A3DC81542AF1FAE700C31BA3 /* Info.plist */,
+				A3DC81662AF42A4A00C31BA3 /* DeleteSetViewController.swift */,
+				A3DC81682AF42A6200C31BA3 /* AddCardViewController.swift */,
+				A3DC816A2AF42A8500C31BA3 /* EditNameViewController.swift */,
 			);
 			path = Navarrete_Alexis_BetaApp;
 			sourceTree = "<group>";
@@ -127,6 +157,7 @@
 			files = (
 				A3DC81532AF1FAE700C31BA3 /* LaunchScreen.storyboard in Resources */,
 				A3DC81502AF1FAE700C31BA3 /* Assets.xcassets in Resources */,
+				A34492662B1A0048003A1BCF /* readme.rtf in Resources */,
 				A3DC814E2AF1FAE500C31BA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +169,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3DC815D2AF3668200C31BA3 /* GameViewController.swift in Sources */,
 				A3DC814B2AF1FAE500C31BA3 /* ViewController.swift in Sources */,
 				A3DC81472AF1FAE500C31BA3 /* AppDelegate.swift in Sources */,
+				A3DC815F2AF366D300C31BA3 /* CardViewController.swift in Sources */,
+				A3DC81652AF3956100C31BA3 /* AddNewSetViewController.swift in Sources */,
+				A3DC816D2AF42C6A00C31BA3 /* cardSettingsViewController.swift in Sources */,
 				A3DC81492AF1FAE500C31BA3 /* SceneDelegate.swift in Sources */,
+				A3DC81672AF42A4A00C31BA3 /* DeleteSetViewController.swift in Sources */,
+				A3DC81612AF366F200C31BA3 /* SettingsViewController.swift in Sources */,
+				A3DC816F2AF42C7B00C31BA3 /* deleteCardViewController.swift in Sources */,
+				A3DC81692AF42A6200C31BA3 /* AddCardViewController.swift in Sources */,
+				A3DC816B2AF42A8500C31BA3 /* EditNameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
